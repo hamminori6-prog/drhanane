@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Tooth being handled with utmost gentle care -->
+  <path d="M24 10C17 10 14 16 14 23C14 30 18 37 21 43C22 45 23.5 45 24 42C24.8 37 25.5 32 27 30C27.5 29 28.5 29 29 30C30.5 32 31.2 37 32 42C32.5 45 34 45 35 43C38 37 42 30 42 23C42 16 39 10 32 10C28 10 26 13 24 13C22 13 20 10 24 10Z" fill="#F0F9FF" stroke="#0284C7" stroke-width="2.5"/>
+  <!-- Gentle lifting arrows / surgical precision -->
+  <path d="M24 18V6M24 6L20 10M24 6L28 10" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Calming circular rings -->
+  <circle cx="24" cy="24" r="18" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3"/>
+</svg>

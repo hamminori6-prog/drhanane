@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Cross / Oral surgical precision emblem -->
+  <rect x="20" y="4" width="8" height="40" rx="4" fill="#E0F2FE" stroke="#0284C7" stroke-width="2.5"/>
+  <rect x="4" y="20" width="40" height="8" rx="4" fill="#E0F2FE" stroke="#0284C7" stroke-width="2.5"/>
+  <!-- Central dental precision core -->
+  <circle cx="24" cy="24" r="7" fill="#0284C7"/>
+  <!-- Small tooth inside surgical core -->
+  <path d="M24 20C22 20 21 21.5 21 23.5C21 25.5 22 27 23 28C23.5 28.5 24 28.5 24 27.5C24 27 24.5 27 25 27.5C25 28.5 25.5 28.5 26 28C27 27 28 25.5 28 23.5C28 21.5 27 20 25 20C24.5 20 24.2 20.5 24 20.5C23.8 20.5 23.5 20 24 20Z" fill="#FFFFFF"/>
+</svg>
