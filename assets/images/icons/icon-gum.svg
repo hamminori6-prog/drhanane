@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Tooth Roots embedded in gums -->
+  <path d="M24 6C17 6 15 11 15 17C15 23 18 30 20 37C21 39 23 39 23.5 36C24.5 32 25.5 28 27 26C27.5 25 28.5 25 29 26C30.5 28 31.5 32 32.5 36C33 39 35 39 36 37C38 30 41 23 41 17C41 11 39 6 32 6C28 6 26 9 24 9C22 9 20 6 24 6Z" fill="#F0F9FF" stroke="#0284C7" stroke-width="2.5"/>
+  <!-- Gum arch / Healthy periodontal contour -->
+  <path d="M8 26C14 26 18 20 24 20C30 20 34 26 40 26C43 26 45 29 45 33C45 38 41 42 36 42H12C7 42 3 38 3 33C3 29 5 26 8 26Z" fill="#E0F2FE" stroke="#0284C7" stroke-width="2" opacity="0.95"/>
+  <!-- Healthy gum heart / protection emblem -->
+  <path d="M24 28C22 25 18 26 18 29C18 32 24 36 24 36C24 36 30 32 30 29C30 26 26 25 24 28Z" fill="#0EA5E9"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <path d="M24 6C15 6 12 12 12 20C12 28 17 36 20 42C21 44 23 44 23.5 41C24.5 35 25.5 30 27 28C27.5 27 28.5 27 29 28C30.5 30 31.5 35 32.5 41C33 44 35 44 36 42C39 36 44 28 44 20C44 12 41 6 32 6C28 6 26 9 24 9C22 9 20 6 24 6Z" fill="#E0F2FE" stroke="#0284C7" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Sparkles -->
+  <path d="M38 10L39 6L40 10L44 11L40 12L39 16L38 12L34 11L38 10Z" fill="#0EA5E9"/>
+  <path d="M10 22L11 18L12 22L16 23L12 24L11 28L10 24L6 23L10 22Z" fill="#38BDF8"/>
+  <circle cx="28" cy="18" r="2.5" fill="#0284C7"/>
+  <!-- Smile light reflection -->
+  <path d="M18 18C20 23 28 23 30 18" stroke="#0284C7" stroke-width="2" stroke-linecap="round"/>
+</svg>
