@@ -264,21 +264,23 @@ ul, ol {
 }
 
 .topbar-whatsapp-link {
-  color: #f0f9ff;
-  font-weight: 700;
+  color: #ffffff;
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
-  background: rgba(37, 211, 102, 0.25);
-  padding: 0.2rem 0.65rem;
-  border-radius: var(--radius-full);
-  border: 1px solid rgba(37, 211, 102, 0.4);
-  transition: background var(--transition-fast);
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: var(--color-whatsapp);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(37, 211, 102, 0.4);
+  transition: all var(--transition-fast);
 }
 
 .topbar-whatsapp-link:hover {
-  background: rgba(37, 211, 102, 0.4);
+  background: #1eb956;
   color: #ffffff;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.6);
 }
 
 /* Main Navigation Bar */
