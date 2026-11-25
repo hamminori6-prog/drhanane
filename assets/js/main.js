@@ -1,5 +1,5 @@
 /**
- * Dental Clinic Website - Dr. Hanane Hamlawi (د. حملاوي حنان)
+ * Dental Clinic Website - Dr. Hanane Hamlawi (د. موقع تجريبي)
  * Master Client-Side JavaScript
  * Pure Vanilla JS - Fast, Accessible, RTL-Optimized
  */
@@ -7,7 +7,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   // 1. WhatsApp Configuration Constants
   const WA_PHONE = '213669371261';
-  const WA_DEFAULT_MSG = 'السلام عليكم دكتورة حملاوي حنان، أود حجز موعد في العيادة، من فضلكم.';
+  const WA_DEFAULT_MSG = 'السلام عليكم دكتورة موقع تجريبي، أود حجز موعد في العيادة، من فضلكم.';
 
   // 2. Mobile Navigation Drawer Toggle
   const mobileNavToggle = document.getElementById('mobileNavToggle');
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Build formatted Arabic WhatsApp Message
-      let message = `السلام عليكم دكتورة حملاوي حنان، أود حجز موعد في العيادة، من فضلكم:\n`;
+      let message = `السلام عليكم دكتورة موقع تجريبي، أود حجز موعد في العيادة، من فضلكم:\n`;
       message += `• الاسم: ${name}\n`;
       if (phone) message += `• الهاتف: ${phone}\n`;
       if (service) message += `• الخدمة المطلوبة: ${service}\n`;
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const encodedMessage = encodeURIComponent(message);
       const whatsappUrl = `https://wa.me/${WA_PHONE}?text=${encodedMessage}`;
 
-      showToast('جاري فتح محادثة الواتساب مع عيادة الدكتورة حملاوي حنان...');
+      showToast('جاري فتح محادثة الواتساب مع عيادة الدكتورة موقع تجريبي...');
       setTimeout(() => {
         window.open(whatsappUrl, '_blank');
       }, 400);
@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       const serviceName = btn.getAttribute('data-service');
-      const message = `السلام عليكم دكتورة حملاوي حنان، أود حجز موعد لخدمة (${serviceName}) في العيادة، من فضلكم.`;
+      const message = `السلام عليكم دكتورة موقع تجريبي، أود حجز موعد لخدمة (${serviceName}) في العيادة، من فضلكم.`;
       const url = `https://wa.me/${WA_PHONE}?text=${encodeURIComponent(message)}`;
       window.open(url, '_blank');
     });
